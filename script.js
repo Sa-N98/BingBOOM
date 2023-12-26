@@ -8,8 +8,8 @@ function generateRandomNumbers(range) {
         if(!indexs.includes(index)){
             indexs.push(index)
         }
-        indexs.push("https://www.bing.com/search?q=stop+signe+image&cvid=e1b660696ea346d9acfe115da6c53afd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0NzE2ajBqOagCALACAA&FORM=ANAB01&PC=HCTS")
     }
+    indexs.push("https://www.bing.com/search?q=stop+signe+image&cvid=e1b660696ea346d9acfe115da6c53afd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0NzE2ajBqOagCALACAA&FORM=ANAB01&PC=HCTS")
     return indexs
 }
 
