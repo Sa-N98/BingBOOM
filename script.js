@@ -20,11 +20,6 @@ function getLiks() {
     })
     .then((data) => {   links = data; 
                         const linkIndex=generateRandomNumbers(links.links.length)
-                        // for (i of linkIndex){
-                        //     // console.log(links.links[i])
-                        //     setTimeout(()=>{window.open(links.links[i],'_blank')}, 10000)
-
-                        // }
                         linkIndex.forEach((i,index)=>{
                                                        setTimeout(()=>{window.open(links.links[i],'_blank')}, index*10000)
                                                      })
