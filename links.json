@@ -154,5 +154,7 @@
         "https://www.bing.com/search?q=digital&cvid=01991f3c724149a29a44de1c2efdf84f&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI2NTVqMGo5qAIAsAIA&FORM=ANAB01&PC=HCTS  ",
         "https://www.bing.com/search?q=godzila&cvid=4b913cb48b3c4f44b0a8b33aa59bb193&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQkxMDI0NWowajmoAgCwAgA&FORM=ANAB01&PC=HCTS  ",
         "https://www.bing.com/search?q=stop+signe+image&qs=n&form=QBRE&sp=-1&lq=0&pq=stop+signe+imag&sc=11-15&sk=&cvid=44BEADF21B6A4F7DA7A239F430C5A7E9&ghsh=0&ghacc=0&ghpl=  "
-    ]
+    ],
+
+    "stopIndicator": "https://www.bing.com/search?q=stop+signe+image&cvid=e1b660696ea346d9acfe115da6c53afd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0NzE2ajBqOagCALACAA&FORM=ANAB01&PC=HCTS"
 }
