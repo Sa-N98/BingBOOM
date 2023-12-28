@@ -206,7 +206,12 @@
         "https://www.bing.com/search?q=family+guy+where+to+watch&cvid=baee7b1c30e747529c052718a66dd04b&gs_lcrp=EgZjaHJvbWUqBggAEAAYQDIGCAAQABhAMgcIARDrBxhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQkxNjUyMWowajGoAgCwAgA&FORM=ANNTA1&PC=HCTS",
         "https://www.bing.com/search?q=spegity+monster&cvid=3c1581826f6b464ba40ac738d09ac790&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQ6wcYQDIGCAIQLhhAMgYIAxAAGEAyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQABhA0gEINjI2MGowajmoAgCwAgA&FORM=ANAB01&PC=HCTS",
         "https://www.bing.com/search?q=stephen+hawking&cvid=ea9efa5d48d04f9cb3d305dd96fd769f&gs_lcrp=EgZjaHJvbWUqBggCEC4YQDIGCAAQRRg5MgcIARDrBxhAMgYIAhAuGEAyBggDEC4YQDIGCAQQLhhAMgYIBRAuGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg1OTUwajBqOagCALACAA&FORM=ANAB01&PC=HCTS",
-        "https://www.bing.com/search?q=compare+strings+online&cvid=3a70479c6374498eb49d519e1817d04f&gs_lcrp=EgZjaHJvbWUqBggCEAAYQDIGCAAQRRg5MgcIARDrBxhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg2ODIzajBqOagCALACAA&FORM=ANAB01&PC=HCTS"
+        "https://www.bing.com/search?q=compare+strings+online&cvid=3a70479c6374498eb49d519e1817d04f&gs_lcrp=EgZjaHJvbWUqBggCEAAYQDIGCAAQRRg5MgcIARDrBxhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg2ODIzajBqOagCALACAA&FORM=ANAB01&PC=HCTS",
+        "https://www.bing.com/search?pglt=131&q=does+bing+have+an+api&cvid=eeceb38d64174ebfb4e149837d53c911&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg70gEINjA4MGowajGoAgCwAgA&FORM=ANSPA1&PC=HCTS",
+        "https://www.bing.com/search?q=bing+api&cvid=ad0a6feb863f4a9ababdba6b08c9de06&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYQNIBCDM3NjhqMGoxqAIAsAIA&FORM=ANAB01&PC=HCTS",
+        "https://www.bing.com/search?pglt=131&q=gmsarina&cvid=a2069a3799fa4892bd35b50ba8728672&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0ODg4ajBqMagCALACAA&FORM=ANNTA1&PC=HCTS",
+        "https://www.bing.com/search?q=i+want+to+keep+a+record+of+all+the+search+i+do+on+bing+.+how+to+do+that+programatically&FORM=AWRE",
+        "https://www.bing.com/search?q=java+script+that+can+track+other+tab+activities&qs=n&form=QBRE&sp=-1&ghc=1&lq=1&pq=java+script+that+can+track+other+tab+activitie&sc=2-46&sk=&cvid=6BEA5D11BD05437EA68EE76907E6F1D8&ghsh=0&ghacc=0&ghpl="
     ],
 
     "stopIndicator": "https://www.bing.com/search?q=stop+signe+image&cvid=e1b660696ea346d9acfe115da6c53afd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0NzE2ajBqOagCALACAA&FORM=ANAB01&PC=HCTS"
