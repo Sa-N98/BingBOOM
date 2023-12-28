@@ -23,7 +23,7 @@ function getLiks() {
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
-                                                                      }, index*Math.random()*2*10000);
+                                                                      }, (index+Math.random()*2)*10000);
                                                      })    
                     })
 }   
