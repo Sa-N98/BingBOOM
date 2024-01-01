@@ -24,7 +24,7 @@ function getLiks() {
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
                                                 
-                                                                      }, (index+ Math.random())*10000)
+                                                                      }, index*10000)
                                                      })    
                     })
 }   
