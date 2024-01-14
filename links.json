@@ -211,7 +211,29 @@
         "https://www.bing.com/search?q=bing+api&cvid=ad0a6feb863f4a9ababdba6b08c9de06&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGDsyBggDEEUYQNIBCDM3NjhqMGoxqAIAsAIA&FORM=ANAB01&PC=HCTS",
         "https://www.bing.com/search?pglt=131&q=gmsarina&cvid=a2069a3799fa4892bd35b50ba8728672&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0ODg4ajBqMagCALACAA&FORM=ANNTA1&PC=HCTS",
         "https://www.bing.com/search?q=i+want+to+keep+a+record+of+all+the+search+i+do+on+bing+.+how+to+do+that+programatically&FORM=AWRE",
-        "https://www.bing.com/search?q=java+script+that+can+track+other+tab+activities&qs=n&form=QBRE&sp=-1&ghc=1&lq=1&pq=java+script+that+can+track+other+tab+activitie&sc=2-46&sk=&cvid=6BEA5D11BD05437EA68EE76907E6F1D8&ghsh=0&ghacc=0&ghpl="
+        "https://www.bing.com/search?q=java+script+that+can+track+other+tab+activities&qs=n&form=QBRE&sp=-1&ghc=1&lq=1&pq=java+script+that+can+track+other+tab+activitie&sc=2-46&sk=&cvid=6BEA5D11BD05437EA68EE76907E6F1D8&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?pglt=131&q=how+does+a+vpn+work&cvid=087498cbe22940b8af35172a6bb0a2af&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINTM3NGowajGoAgCwAgA&FORM=ANNTA1&PC=HCTS",
+        "https://www.bing.com/search?q=what+is+the+demand+of+ux+design+in+india&cvid=fbe48a30bfc54df997bbb44ee317908b&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQkxOTA2NWowajmoAgCwAgA&FORM=ANAB01&PC=HCTS",
+        "https://www.bing.com/search?q=the+last+of+us&cvid=a7c66232784249799d7bd90ed5c6aef1&gs_lcrp=EgZjaHJvbWUqBggCEC4YQDIGCAAQRRg5MgYIARAAGEAyBggCEC4YQDIGCAMQLhhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAuGEAyBggIEC4YQNIBCTEwMTkzajBqOagCALACAA&FORM=ANAB01&PC=HCTS",
+        "https://www.bing.com/search?q=the+last+of+us+recasting+&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=the+last+of+us+recasting+&sc=10-25&sk=&cvid=A68A5EC09F4040C799DD099A194ADA77&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?q=make+diy&cvid=6993067370ad468783a83aba086abc4e&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg4ODUzajBqOagCALACAA&FORM=ANAB01&PC=HCTS",
+        "https://www.bing.com/search?q=bodies&qs=n&form=QBRE&sp=-1&lq=0&pq=bodies&sc=11-6&sk=&cvid=53DECBBCBD854C97A292FF86D5F6F69F&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?q=bodies+cast&qs=n&form=QBRE&sp=-1&lq=0&pq=bodies+cast&sc=11-11&sk=&cvid=2509EE5DEB0A4BF7BCF47699834E745E&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?q=Amaka+Okafor&FORM=SNAPST&filters=sid:%223d924873-77ce-c4a4-622e-05f7838daae3%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=0&efirst=1",
+        "https://www.bing.com/search?q=Kyle+Soller&FORM=SNAPST&filters=sid:%2238ee4191-de40-4669-8b1e-c4230fd2a197%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=0&efirst=1",
+        "https://www.bing.com/search?q=Shira+Haas&FORM=SNAPST&filters=sid:%223f259447-6697-5ed6-6ee0-7b9c0eb1a9a3%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22",
+        "https://www.bing.com/search?q=Jacob+Fortune-Lloyd&FORM=SNAPST&filters=sid:%2288240fb6-6d09-71b8-4bc8-83acfae70ea0%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=0&efirst=1",
+        "https://www.bing.com/search?q=Tom+Mothersdale&FORM=SNAPST&filters=sid:%22504189ca-17bc-9e49-596b-b21112295117%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=0&efirst=1",
+        "https://www.bing.com/search?q=Greta+Scacchi&FORM=SNAPST&filters=sid:%22b71b07a7-ffa4-2e87-73ac-0c416a3f1056%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22",
+        "https://www.bing.com/search?q=Stephen+Graham&FORM=SNAPST&filters=sid:%22e890729d-1a71-dcaf-7935-78c813e21cff%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=417&efirst=1",
+        "https://www.bing.com/search?q=Synn%c3%b8ve+Karlsen&FORM=SNAPST&filters=sid:%22e53fc848-4689-aa15-4963-70371c296079%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=416&efirst=1",
+        "https://www.bing.com/search?q=George+Parker&FORM=SNAPST&filters=sid:%227557800d-4e73-e8d9-d5fb-0b42f409a686%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=416&efirst=1",
+        "https://www.bing.com/search?q=Gabriel+Howell&FORM=SNAPST&filters=sid:%22abe0d6fd-1e4b-cd16-9edb-aca4e4f3565a%22+fcid:%222f0c705d-6cb2-ed7d-fae1-0a47f698c8fb%22+fccat:%2212%22&crslsl=929&efirst=1",
+        "https://www.bing.com/search?q=llm+law+suit&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=llm+law+su&sc=11-10&sk=&cvid=5BBED454C3CB4FA3B7AF84BEA5992943&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?q=genarative+ai+lawsuit&qs=n&form=QBRE&sp=-1&lq=0&pq=genarative+ai+lawsu&sc=7-19&sk=&cvid=FF2AEE3AEDFB47F49875251C5AD78141&ghsh=0&ghacc=0&ghpl=",
+        "https://www.bing.com/search?q=how+to+download+web+history&FORM=AWRE",
+        "https://www.bing.com/search?q=how+to+download+browser+history+edge&qs=UT&pq=how+to+download+browser+history+&sc=9-32&cvid=EE60478AF4C94896BC8F7B7D48CA67D8&FORM=QBRE&sp=1&ghc=1&lq=0"
+
     ],
 
     "stopIndicator": "https://www.bing.com/search?q=stop+signe+image&cvid=e1b660696ea346d9acfe115da6c53afd&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg0NzE2ajBqOagCALACAA&FORM=ANAB01&PC=HCTS"
