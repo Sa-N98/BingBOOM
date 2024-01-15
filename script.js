@@ -23,9 +23,9 @@ function getLiks() {
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
-                                                                        // var a = Math.random() ;
-                                                                        // var b = Math.random() ;
-                                                                        // console.log(index+a+b, "this time is sec: ", (index+a+b)*10000)
+                                                                        var a = Math.random() ;
+                                                                        var b = Math.random() ;
+                                                                        console.log(index+a+b)
                                                                       }, (index+a+b)*10000)
                                                      })    
                     })
