@@ -23,8 +23,8 @@ function getLiks() {
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
-                                                                        var a = Math.random() ;
-                                                                        var b = Math.random() ;
+                                                                        let a = Math.random() ;
+                                                                        let b = Math.random() ;
                                                                         console.log(index+a+b)
                                                                       }, (index+a+b)*10000)
                                                      })    
