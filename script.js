@@ -2,7 +2,7 @@ let links
 
 function generateRandomNumbers(range) {
     const indexs= []
-    while(indexs.length!=30){
+    while(indexs.length!=Math.floor(Math.random()*(50-30))+30){
         const index = Math.floor(Math.random()* (range  + 1)) ;
 
         if(!indexs.includes(index)){
@@ -10,6 +10,14 @@ function generateRandomNumbers(range) {
         }
     }
     return indexs
+}
+
+function timer(index){
+    let a= Math.random();
+    let b= Math.random()
+    let time=index+a+b
+    // console.log(time)
+    return time
 }
 
 function getLiks() {
@@ -22,11 +30,8 @@ function getLiks() {
                         linkIndex.forEach((i,index)=>{
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
-                                                                        //  console.log(links.links[i],'\n',i,'\n',index)
-                                                                        let a = Math.random() ;
-                                                                        let b = Math.random() ;
-                                                                        console.log(index+a+b)
-                                                                      }, (index+a+b)*10000)
+                                                                        //  console.log(links.links[i],'\n',i,'\n',index)                                                                        
+                                                                      }, timer(index)*10000)
                                                      })    
                     })
 }   
