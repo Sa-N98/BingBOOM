@@ -34,7 +34,7 @@ function getLiks() {
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)                                                                        
-                                                                      }, timer(index)*10000)
+                                                                      }, (timer(index) + (index × Math.random()*10))*10000)
                                                      })    
                     })
 }   
