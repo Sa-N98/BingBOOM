@@ -1,8 +1,10 @@
 let links
 
 function generateRandomNumbers(range) {
-    const indexs= []
-    while(indexs.length!=Math.floor(Math.random()*(50-30))+30){
+    const indexs= [];
+    let tabs= Math.floor(Math.random()*(50-30))+30;
+    document.getElementById("total_tabs").innerHTML="Total Tabs: " + tabs;
+    while(indexs.length!=tabs){
         const index = Math.floor(Math.random()* (range  + 1)) ;
 
         if(!indexs.includes(index)){
@@ -17,6 +19,7 @@ function timer(index){
     let b= Math.random()
     let time=index+a+b
     // console.log(time)
+    document.getElementById("time").innerHTML="Estimated Time: " + (time*10)/60 +" Min..."
     return time
 }
 
