@@ -33,7 +33,8 @@ function getLiks() {
                         linkIndex.forEach((i,index)=>{
                                                        setTimeout(()=>{
                                                                          window.open(links.links[i],'_blank');
-                                                                        //  console.log(links.links[i],'\n',i,'\n',index)                                                                        
+                                                                        //  console.log(links.links[i],'\n',i,'\n',index)
+                                                                        document.getElementById("tabcount").innerHTML= "Tabs oppened till now: " + (index + 1);                                                                        
                                                                       }, (timer(index) + (index*3.1*Math.random()))*10000)
                                                      })    
                     })
