@@ -17,7 +17,7 @@ function generateRandomNumbers(range) {
 function timer(index){
     let a= Math.random();
     let b= Math.random()
-    let time=index+a+b
+    let time=index+(a*0.1)+(b*0.1)
     // console.log(time)
     document.getElementById("time").innerHTML="Estimated Time: " + (time*10)/60 +" Min..."
     return time
@@ -35,7 +35,7 @@ function getLiks() {
                                                                          window.open(links.links[i],'_blank');
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
                                                                         document.getElementById("tabcount").innerHTML= "Tabs oppened till now: " + (index + 1);                                                                        
-                                                                      }, (timer(index) + (index*3.1*Math.random()))*10000)
+                                                                      }, (timer(index))*10000)
                                                      })    
                     })
 }   
