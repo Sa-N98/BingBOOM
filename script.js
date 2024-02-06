@@ -19,8 +19,8 @@ function timer(index){
     let a = Math.random();
     let b = Math.random()
     let time
-    if((index+1)%4 == 0){
-        buffer= buffer + 15
+    if((index+1)%5 == 0){
+        buffer= buffer + 801 + Math.random()
         time=index+(a*0.1)+(b*0.2)+buffer
     }
     else{time=index+(a*0.1)+(b*0.1)+buffer}
