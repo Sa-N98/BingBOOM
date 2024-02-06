@@ -2,7 +2,7 @@ let links
 
 function generateRandomNumbers(range) {
     const indexs= [];
-    let tabs= Math.floor(Math.random()*(50-30))+30;
+    let tabs= Math.floor(Math.random()*(60-35))+35;
     document.getElementById("total_tabs").innerHTML="Total Tabs: " + tabs;
     while(indexs.length!=tabs){
         const index = Math.floor(Math.random()* (range  + 1)) ;
@@ -17,8 +17,7 @@ function generateRandomNumbers(range) {
 function timer(index){
     let a= Math.random();
     let b= Math.random()
-    let time=index+(a*5.1)+(b*3.1)
-    // console.log(time)
+    let time=index+(a*3.1)+(b*3.1)
     document.getElementById("time").innerHTML="Estimated Time: " + (time*10)/60 +" Min..."
     return time
 }
