@@ -14,10 +14,17 @@ function generateRandomNumbers(range) {
     return indexs
 }
 
+let buffer = 0
 function timer(index){
-    let a= Math.random();
-    let b= Math.random()
-    let time=index+(a*3.1)+(b*3.1)
+    let a = Math.random();
+    let b = Math.random()
+    let time
+    if((index+1)%4 == 0){
+        buffer= buffer + 15
+        time=index+(a*0.1)+(b*0.2)+buffer
+    }
+    else{time=index+(a*0.1)+(b*0.1)+buffer}
+    console.log(time)
     document.getElementById("time").innerHTML="Estimated Time: " + (time*10)/60 +" Min..."
     return time
 }
