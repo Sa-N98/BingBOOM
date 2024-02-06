@@ -17,7 +17,7 @@ function generateRandomNumbers(range) {
 function timer(index){
     let a= Math.random();
     let b= Math.random()
-    let time=index+(a*0.1)+(b*3.1)
+    let time=index+(a*5.1)+(b*3.1)
     // console.log(time)
     document.getElementById("time").innerHTML="Estimated Time: " + (time*10)/60 +" Min..."
     return time
