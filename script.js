@@ -38,7 +38,7 @@ function getLiks() {
                         const linkIndex=generateRandomNumbers(links.links.length)
                         linkIndex.forEach((i,index)=>{
                                                        setTimeout(()=>{
-                                                                        //  window.open(links.links[i],'_blank');
+                                                                        window.open(links.links[i],'_blank');
                                                                         // document.getElementById("frame").src = links.links[i];
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
                                                                         document.getElementById("tabcount").innerHTML= "Tabs oppened till now: " + (index + 1);                                                                        
