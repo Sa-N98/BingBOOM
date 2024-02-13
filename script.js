@@ -20,7 +20,7 @@ function timer(index){
     let b = Math.random()
     let time
     if((index+1)%5 == 0){
-        buffer= buffer + 80 + Math.random()
+        buffer= buffer + (5*Math.random()) + Math.random()
         time=index+(a*0.1)+(b*0.2)+buffer
     }
     else{time=index+(a*0.1)+(b*0.1)+buffer}
@@ -38,7 +38,8 @@ function getLiks() {
                         const linkIndex=generateRandomNumbers(links.links.length)
                         linkIndex.forEach((i,index)=>{
                                                        setTimeout(()=>{
-                                                                         window.open(links.links[i],'_blank');
+                                                                        //  window.open(links.links[i],'_blank');
+                                                                        // document.getElementById("frame").src = links.links[i];
                                                                         //  console.log(links.links[i],'\n',i,'\n',index)
                                                                         document.getElementById("tabcount").innerHTML= "Tabs oppened till now: " + (index + 1);                                                                        
                                                                       }, (timer(index))*10000)
