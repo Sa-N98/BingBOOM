@@ -19,7 +19,7 @@ function timer(index){
     let a = Math.random();
     let b = Math.random()
     let time
-    if((index+1)%5 == 0){
+    if((index+1)%(Math.floor(Math.random()*10)) == 0){
         buffer= buffer + (50*Math.random()) + Math.random()
         time=index+(a*0.1)+(b*0.2)+buffer
     }
