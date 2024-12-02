@@ -28,17 +28,18 @@ class MainWindow(qtw.QWidget):
         my_button = qtw.QPushButton("HIT ME BITCH!!!", clicked=lambda: press_it())
         self.layout().addWidget(my_button)
 
-        # Assign QWebEngineView to self.view
+        # Initialize QWebEngineView with an initial URL
         self.view = QWebEngineView()
+        self.view.setUrl(QUrl("https://www.bing.com/search?q=home"))  # Set a default initial URL
+        self.layout().addWidget(self.view)  # Add the web view to the layout
 
         def search():
             url = f"https://www.bing.com/search?q={my_entry.text()}"
             self.view.setUrl(QUrl(url))
         search_button = qtw.QPushButton("Search!!!", clicked=lambda: search())
         self.layout().addWidget(search_button)
-        self.layout().addWidget(self.view)
 
-        # Button to fetch HTML
+        # Button to fetch and save HTML
         fetch_html_button = qtw.QPushButton("Save HTML", clicked=lambda: self.fetch_html())
         self.layout().addWidget(fetch_html_button)
 
