@@ -2,6 +2,7 @@ import PyQt6.QtWidgets as qtw
 import PyQt6.QtGui as qtg
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 from PyQt6.QtCore import QUrl
+from pprint import pprint
 import sys
 
 class MainWindow(qtw.QWidget):
@@ -36,6 +37,9 @@ class MainWindow(qtw.QWidget):
         def search():
             url = f"https://www.bing.com/search?q={my_entry.text()}"
             self.view.setUrl(QUrl(url))
+            print()
+            print(url)
+            print()
         search_button = qtw.QPushButton("Search!!!", clicked=lambda: search())
         self.layout().addWidget(search_button)
 
@@ -48,6 +52,7 @@ class MainWindow(qtw.QWidget):
     def fetch_html(self):
         def handle_html(html):
             # Save HTML to a file
+            pprint(html)
             file_path = "output.html"
             try:
                 with open(file_path, "w", encoding="utf-8") as file:
