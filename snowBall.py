@@ -37,8 +37,13 @@ class MainWindow(qtw.QMainWindow):
             textInput.setText("")
             print(url)
             self.view.setUrl(QUrl(url))
+            self.view.page().toHtml(handle_html)
+        
+        def handle_html(html):
+            print(html)
 
-            
+
+
 
         
         layout.addWidget(self.view)
