@@ -3,6 +3,8 @@ import PyQt6.QtWidgets as qtw
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 from PyQt6.QtCore import QUrl
 
+from bs4 import BeautifulSoup
+
 class MainWindow(qtw.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -38,7 +40,7 @@ class MainWindow(qtw.QMainWindow):
             print(url)
             self.view.setUrl(QUrl(url))
             self.view.page().toHtml(handle_html)
-            
+
             def on_load_finished():
                 self.view.page().toHtml(handle_html)
                 # Disconnect the signal to avoid repeated triggers
@@ -48,7 +50,18 @@ class MainWindow(qtw.QMainWindow):
             self.view.loadFinished.connect(on_load_finished)
         
         def handle_html(html):
-            print(html)
+            # print(html)
+            soup = BeautifulSoup(html, 'html.parser')
+            links_containers = soup.select(".b_rs")
+
+            # Extract all <a> tags from those containers
+            for container in links_containers:
+                links = container.find_all("a")  # Find all <a> tags within the container
+                for link in links:
+                    # Extract the href attribute and text of the <a> tag
+                    href = link.get("href", "No href attribute")
+                    text = link.text.strip()
+                    print(f"Text: {text}, Href: {href}")
 
 
 
