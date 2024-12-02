@@ -38,6 +38,14 @@ class MainWindow(qtw.QMainWindow):
             print(url)
             self.view.setUrl(QUrl(url))
             self.view.page().toHtml(handle_html)
+            
+            def on_load_finished():
+                self.view.page().toHtml(handle_html)
+                # Disconnect the signal to avoid repeated triggers
+                self.view.loadFinished.disconnect(on_load_finished)
+
+            # Connect the signal for this specific load
+            self.view.loadFinished.connect(on_load_finished)
         
         def handle_html(html):
             print(html)
