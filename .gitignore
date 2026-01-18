@@ -1,3 +1,4 @@
 links copy.json
 env
 .env
+.venv/

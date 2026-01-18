@@ -1,44 +1,35 @@
 let links;
 
-/* ---------- Secure random (optional but recommended) ---------- */
+/* ---------- Secure random ---------- */
 function rand() {
     return crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
 }
 
-/* ---------- Log-normal random delay (human-like) ---------- */
-function randomDelay(min, max) {
+/* ---------- Skewed human-like delay generator ---------- */
+function humanDelay() {
+    // Rare very long pause
+    if (rand() < 0.05) return 25 + rand() * 15; // 25–40s
+
+    // Log-normal-ish distribution
     let u = 0, v = 0;
     while (u === 0) u = rand();
     while (v === 0) v = rand();
 
     let num = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
 
-    // normalize to 0–1
-    num = (num + 3) / 6;
+    // Shift & scale to favor 10–20s
+    num = (num + 2.5) / 3;  // most values ~0.8
     num = Math.min(Math.max(num, 0), 1);
 
-    return min + num * (max - min);
-}
+    // Map to 5–30s range
+    let delay = 5 + num * 25;
 
-/* ---------- Behavioral state machine ---------- */
-let state = "normal";
-
-function nextDelay() {
-    // Occasionally change behavior
-    if (rand() < 0.08) {
-        state = state === "normal" ? "pause" : "normal";
+    // Smooth burst behavior
+    if (rand() < 0.15) {
+        delay *= 0.5 + rand() * 0.7; // fast action bursts (~50–120% of normal)
     }
 
-    if (state === "pause") {
-        return randomDelay(20, 60); // long pause
-    }
-
-    // bursts
-    if (rand() < 0.25) {
-        return randomDelay(1, 4); // fast clicking
-    }
-
-    return randomDelay(4, 15); // normal browsing
+    return delay;
 }
 
 /* ---------- Random unique index generator ---------- */
@@ -65,7 +56,7 @@ function getLinks() {
             let cumulativeDelay = 0;
 
             linkIndexes.forEach((i, index) => {
-                const delay = nextDelay();
+                const delay = humanDelay();
                 cumulativeDelay += delay;
 
                 setTimeout(() => {
