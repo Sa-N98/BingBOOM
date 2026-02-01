@@ -7,26 +7,29 @@ function rand() {
 
 /* ---------- Skewed human-like delay generator ---------- */
 function humanDelay() {
-    // Rare very long pause
-    if (rand() < 0.05) return 25 + rand() * 15; // 25–40s
+    const r = rand();
 
-    // Log-normal-ish distribution
+    // Rare long pause (~1 min)
+    if (r < 0.12) {                 // ~12% chance
+        return 30 + rand() * 30;    // 30–60s
+    }
+
+    // Main distribution: 20–30s (log-normal-ish)
     let u = 0, v = 0;
     while (u === 0) u = rand();
     while (v === 0) v = rand();
 
-    let num = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+    let z = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
 
-    // Shift & scale to favor 10–20s
-    num = (num + 2.5) / 3;  // most values ~0.8
-    num = Math.min(Math.max(num, 0), 1);
+    // Normalize to 0–1, heavily centered
+    z = (z + 2.2) / 4.4;
+    z = Math.min(Math.max(z, 0), 1);
 
-    // Map to 5–30s range
-    let delay = 5 + num * 25;
+    let delay = 20 + z * 10; // 20–30s
 
-    // Smooth burst behavior
-    if (rand() < 0.15) {
-        delay *= 0.5 + rand() * 0.7; // fast action bursts (~50–120% of normal)
+    // Short burst behavior (human quick actions)
+    if (rand() < 0.18) {
+        delay *= 0.6 + rand() * 0.6; // 60–120%
     }
 
     return delay;
